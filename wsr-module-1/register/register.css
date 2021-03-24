@@ -1,0 +1,45 @@
+.nav .test-0-2 span {
+	color: #e98167;
+}
+
+.register {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #000;
+    background: #333333;
+}
+
+.register_block {
+    padding: 0px 80px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.register_block input {
+    padding: 15px 55px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.register_block_title {
+    font-size: 34px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.register_button {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.register_button button {
+    font-size: 18px;
+    background: #821417;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+

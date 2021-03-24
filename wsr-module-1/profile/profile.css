@@ -1,0 +1,192 @@
+body {
+    background: #E7E7E7;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* header */
+.booking_line {
+    display: flex;
+}
+
+.booking_header_decor {
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 15px 0px;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background: #000;
+}
+
+.title_profile_main {
+    margin: 20px 0px 5px 0px;
+}
+
+
+/* search-info */
+.search_block_info {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.change {
+    display: flex;
+}
+
+.line_text_one {
+    margin: 0px 10px;
+}
+
+
+.search_block_info_one {
+    width: 25%;
+}
+
+.search_welcome {
+    color: #fff;
+    background: #333333;
+    padding: 10px 10px;
+    width: 65%;
+    margin-bottom: 5px;
+}
+
+.search_welcome_line {
+    height: 1px;
+    background: #000;
+}
+
+.search_main_block {
+    display: flex;
+    margin-top: 20px;
+}
+
+.test_block_end {
+    margin-top: 20px;
+}
+
+.test-3-name,
+.test-3-last {
+    font-size: 18px;
+}
+
+.quantity_trevel_title {
+    margin-top: 50px;
+}
+
+.test-3-name_block {
+    font-size: 18px;
+    color: black;
+    background: #fff;
+    padding: 8px 0px;
+    margin-bottom: 5px;
+}
+
+.test-3-last {
+    margin-bottom: 5px;
+}
+
+.search_welcome_line_end {
+    height: 1px;
+    background: #000;
+    margin-bottom: 10px;
+}
+
+.quantile_trevel_upcoming_completed_text {
+    font-size: 45px;
+}
+.quantile_trevel_upcoming_completed_title {
+    margin: 10px 0px;
+}
+
+.search_welcome_line_one {
+    height: 1px;
+    background: black;
+    margin-bottom: 10px;
+}
+
+.test-3-name {
+    margin-bottom: 5px;
+}
+
+.test-3-logout {
+    margin-bottom: 3px;
+}
+
+.quantity_trevel_title {
+    margin-bottom: 5px;
+}
+
+.search_block_info_two {
+    width: 65%;
+}
+
+.search_block {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.search_block_info_two_title {
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+.search_block_info_two_title_line {
+    height: 1px;
+    background: black;
+    margin-bottom: 30px;
+}
+
+.search_line_one {
+    color: #fff;
+    background:#333333;
+    padding: 10px 10px;
+}
+
+.test-3-d1 {
+    background: #c9c9c9;
+    padding: 10px 10px;
+}
+
+.test-3-t1,
+.test-3-from {
+    color: black;
+    background: #fff;
+    padding: 10px 10px;
+}
+
+.test-3-t2,
+.test-3-to  {
+    background: #c9c9c9;
+    padding: 10px 10px;
+}
+
+.search_block_info_button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search_button {
+    text-align: center;
+    color: #fff;
+    background: #333333;
+    width: 20%;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.search_main_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test-0-logo a {
+    text-decoration: none;
+    color: #fff;
+}

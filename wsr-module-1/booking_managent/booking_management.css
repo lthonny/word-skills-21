@@ -1,0 +1,251 @@
+body {
+    background: #E7E7E7;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* line */
+.booking_line {
+    display: flex;
+}
+
+.booking_header_decor {
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 15px 0px;
+}
+
+
+/* main-top*/
+.booking_main_fff {
+    background: #fff;
+    padding: 0px 30px;
+}
+
+.booking_main {
+    margin-top: 30px;
+}
+
+.booking_main_block_city_number {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.booking_main_block_number {
+    display: flex;
+    justify-content: baseline;
+}
+
+.booking_main_block_number_title {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 25px;
+    padding-top: 9px;
+}
+
+
+/* main-data-time-name */
+.booking_main_block_name_time_data {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.booking_main_block_number_air_text {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.test-6-fcity,
+.test-6-dd,
+.test-6-at,
+.test-6-fc,
+.test-6-ac {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.test-6-fcity_text,
+.test-6-dd_text,
+.test-6-at_text,
+.test-6-fc_text,
+.test-6-ac_text {
+    color: #000;
+    font-size: 18px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+/* booking_main_air */
+.booking_name_air_appointment {
+    display: flex;
+}
+
+.booking_main_air {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.booking_name_air_departure {
+    width: 25.8%;
+    margin-bottom: 20px;
+}
+
+.test-6-from_text {
+    color: #fff;
+    background:#821417;
+    padding: 10px;
+}
+
+.test-6-to_text {
+    color: #fff;
+    background:#821417;
+    padding: 10px 200px 10px 10px;
+}
+
+.test-6-tcity,
+.test-6-to,
+.test-6-from {
+    margin-bottom: 5px;
+}
+
+.booking_name_air_appointment_title_one {
+    margin-bottom: 5px;
+}
+
+.booking_name_air_appointment_title_two {
+    margin-bottom: 5px;
+}
+
+.test-6-tcity_text {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.booking_name_air_city_one {
+    margin-right: 50px;
+}
+
+
+/* booking_main_time_count */
+.booking_main_time_count {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.test-6-bs,
+.test-6-ts,
+.test-6-fh,
+.test-6-ft,
+.test-6-at {
+    margin-bottom: 5px;
+}
+.test-6-bs_text,
+.test-6-ts_text,
+.test-6-fh_text,
+.test-6-ft_text,
+.test-6-at_text {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+.test-6-ac {
+    font-size: 18px;
+}
+.test-6-fc {
+    font-size: 18px;
+}
+
+
+
+/* personal-information */
+.booking_main_booking_personal_information {
+    margin-top: 40px;
+    background: #fff;
+    font-size: 16px;
+    padding: 0px 30px;
+    border: 2px solid #821417;
+}
+
+.booking_personal_information {
+    padding-top: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking_name {
+    text-align: center;
+}
+
+.test-6-name,
+.test-6-last,
+.test-6-doc {
+    margin-bottom: 5px;
+}
+
+.test-6-name_text,
+.test-6-last_text,
+.test-6-doc_text {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.booking_remove_button {
+    padding-left: 500px;
+    padding-top: 50px;
+}
+
+.booking_add_button {
+    padding-top: 50px;
+}
+
+.test-6-tp {
+    margin-bottom: 5px;
+}
+
+
+/* remove add cost */
+.booking_cost_remove_add {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.test-6-tp_text {
+    color: #fff;
+    background:#821417;
+    padding: 10px;
+}
+
+.booking_cost {
+    padding-bottom: 15px;
+}
+
+.booking_main_line {
+    height: 20px;
+    width: 100%;
+    background: #821417;
+}
+
+
+/* location-page */
+.test-6-select a {
+    font-size: 16px;
+    color: #821417;
+    border-bottom: 1px solid #821417;
+}
+
+.test-6-select  {
+    text-align: right;
+    margin: 10px 0px;
+    margin-right: 30px;
+}

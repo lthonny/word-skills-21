@@ -1,0 +1,217 @@
+body {
+    background: #E7E7E7;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* MAIN */
+.booking_main_fff {
+    background: #fff;
+    padding: 0px 30px;
+}
+.booking_main {
+    margin-top: 30px;
+}
+.booking_main_block_city_number {
+    background:  #333333;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.booking_main_block_number {
+    display: flex;
+    justify-content: flex-end;
+}
+.test-5-fc {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 25px;
+    padding-top: 9px;
+}
+.test-5-fc_text,
+.test-5-from_text {
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+.booking_main_block_city {
+    display: flex;
+}
+.change {
+    padding-right: 20px;
+}
+.swap {
+    padding-right: 20px;
+}
+
+/* MAIN--DATA--TIME--NAME */
+.booking_main_block_name_time_data {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.booking_main_block_data {
+    margin-right: 5px;
+}
+.booking_main_block_time {
+    margin-right: 385px;
+}
+.test-5-tcity,
+.test-5-dd,
+.test-5-dt {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.test-5-tcity_text,
+.test-5-dd_text,
+.test-5-dt_text  {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+/* AIR */
+.booking_main_air {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.booking_name_air_departure {
+    width: 25.8%;
+    margin-bottom: 20px;
+}
+.test-5-from_text {
+    color: #fff;
+    background:#821417;
+    padding: 10px;
+}
+.test-5-to_text {
+    color: #fff;
+    background:#821417;
+    padding: 10px 200px 10px 10px;
+}
+.test-5-from,
+.test-5-to,
+.test-5-tcity {
+    margin-bottom: 5px;
+}
+.test-5-tcity_text {
+    border: 1px solid #000;
+    padding: 10px;
+}
+.booking_name_air_appointment {
+    display: flex;
+}
+.booking_name_air_city_one {
+    margin-right: 50px;
+}
+
+/* TIME--COUNT */
+.booking_main_time_count {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.test-5-at,
+.test-5-fp {
+    margin-bottom: 5px;
+}
+.test-5-at_text,
+.test-5-fp_text {
+    border: 1px solid #000;
+    padding: 10px;
+}
+.booking_main_count_text {
+    color: #fff;
+    background: #821417;
+    padding: 10px;
+}
+
+/* family_name_data_number */
+.booking_main_free {
+    margin-top: 40px;
+    background: #fff;
+    font-size: 16px;
+    padding: 0px 30px;
+}
+.booking_family_name_data_number {
+    padding-top: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-5-last,
+.test-5-name,
+.test-5-dob,
+.test-5-doc {
+    margin-bottom: 5px;
+}
+
+.test-5-last_text,
+.test-5-name_text,
+.test-5-dob_text,
+.test-5-doc_text {
+    border: 1px solid #000;
+    padding: 10px;
+}
+.booking_name {
+    text-align: center;
+}
+.booking_remove_button {
+    padding-left: 500px;
+    padding-top: 50px;
+}
+.booking_add_button {
+    padding-top: 50px;
+}
+.booking_cost_title {
+    margin-bottom: 5px;
+}
+/* remove add cost */
+.booking_cost_remove_add {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.booking_add_button a,
+.booking_remove_button a {
+    cursor: pointer;
+    color: #000;
+}
+.booking_cost_text {
+    color: #fff;
+    background:#821417;
+    padding: 10px;
+}
+.booking_cost {
+    padding-bottom: 15px;
+}
+
+.booking_str_br a {
+    font-size: 16px;
+    color: #821417;
+    border-bottom: 1px solid #821417;
+}
+.booking_str_br {
+    text-align: right;
+    margin: 10px 0px;
+    margin-right: 30px;
+}
+
+/* line-FFF */
+.bg {
+    background: #fff;
+    padding: 20px 0px;
+}
+
+/* button-arrange */
+.arrange {
+    margin-top: 35px;
+    font-size: 16px;
+    color: #fff;
+    background: #821417;
+    padding: 15px 25px;
+}

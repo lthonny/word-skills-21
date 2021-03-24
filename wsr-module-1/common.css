@@ -1,0 +1,68 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.container {
+	max-width: 1240px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.test-0-logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    padding: 8px 0px 15px 0px;
+    width: 100%;
+    background-color: #821417;
+    color: #fff;
+}
+.header .container .header_page {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.header .container .header_page .header_page_logo {
+    font-size: 24px;
+}
+.header .container .header_page .nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header .container .header_page .nav a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+}

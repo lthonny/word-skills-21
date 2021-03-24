@@ -1,0 +1,188 @@
+/* main */
+.search_main_title {
+    font-size: 18px;
+    margin: 45px 0px 5px 0px;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background: #000;
+}
+
+
+/* benefit */
+.search_main_block_one {
+    font-size: 18px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.search_main_block_profitable {
+    color: #fff;
+    background:#333333;
+    padding: 8px 105px;
+}
+
+.search_main_block_without_transfers {
+    background: #fff;
+    padding: 8px 20px;
+}
+
+.search_main_block_preferential {
+    background: #fff;
+    padding: 8px 40px;
+}
+
+
+/* interest */
+.search_interest {
+    margin-top: 20px;
+    display: flex;
+}
+
+.seach_interest_one {
+    width: 24.1%;
+    border: 1px solid #000;
+    text-align: center;
+    background: #fff;
+}
+
+.seach_interest_one .test-4-fhh {
+    color: #821417;
+    font-size: 54px;
+    margin: 15px 0px 15px 0px;
+    padding-left: 5px;
+}
+
+.number_percent {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: #821417;
+    font-size: 54px;
+}
+
+.seach_interest_one .seach_interest_button {
+    margin-bottom: 15px;
+}
+
+.seach_interest_one .seach_interest_button button {
+    background-color: #821417;
+    color: #fff;
+    padding: 10px 35px;
+}
+
+.seach_interest_button button:hover {
+    transition: 0.6s;
+    background-color:#333333;
+}
+
+.seach_interest_one .seach_interest_text {
+    margin-bottom: 15px;
+}
+
+.seach_interest_two {
+    width: 65.9%;
+    border: 1px solid #000;
+}
+
+
+/* time */
+.seach_interest_two {
+    background: #fff;
+    font-size: 20px;
+}
+
+.test-4-at {
+    text-align: center;
+    margin-top: 25px;
+    color: #821417;
+}
+
+.seach_interest_block_time,
+.place {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.test-4-dt,
+.test-4-att {
+    margin-bottom: 10px;
+}
+
+.seach_interest_block_data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.line_time {
+    display: flex;
+    justify-content: center;
+}
+
+.line_time_data {
+    width: 90%;
+    height: 1px;
+    background: #000;
+}
+
+.seach_interest_two {
+    padding: 0px 30px;
+}
+
+
+/* number-flight */
+.other_block {
+    display: flex;
+}
+
+.test-4-fn {
+    text-align: center;
+    border: 1px solid #000;
+    background: #E7E7E7;
+    width: 24.1%;
+    padding: 15px 0px;
+    background: #fff;
+    color: #333333;
+}
+
+.other_block_two {
+    border: 1px solid #000;
+    background: #c4c3c3;
+    width: 70.7%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.other_block_two span {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+/* cost */
+.test-4-fh_res {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 57px;
+    color: #fff;
+}
+
+.test-4-fh {
+    background: #333333;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.test-4-fh span {
+    font-size: 20px;
+}

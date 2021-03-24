@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <!-- connection-style -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./common.css">
+    <!-- connection-fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>FlightPool</title>
+</head>
+<body>   
+
+
+<!-- header -->
+<header class="header">
+    <div class="container">
+        <div class="header_page" id="navbar">
+            <div class="header_page_logo">
+                <div class="test-0-logo"><span>F</span>light<span>P</span>ool</div>
+            </div>
+            <nav class="nav">
+                <a class="test-0-1" href="#sect-1" id='nav__link'>Акции</a>
+                <a class="test-0-2" href="../search/search.html" id='nav__link'>Поиск</a>
+                <a class="test-0-4" href="../login/login.html" id='nav__link'>Личный кабинет</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<!-- header-intro -->
+<div class="header-intro">
+    <div class="container">
+        <div class="header-intro-title">
+            <div class="ticket-search">
+                Поиск дешевых авиабилетов
+            </div>
+            <div class="cities">
+                Мы сближаеми города, вы - живете там, где хотите
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- intro -->
+<div class="intro_bg">
+    <div class="intro">
+        <div class="container">
+                <div class="form_seach_home">
+                    <div class="form_seach_title"> 
+                        <div class="form_seach_home-1">
+                            <div class="form_seach_title_text">Откуда</div>
+                            <input class='city' type="text" placeholder="откуда вы летите">
+                        </div>
+                    </div>
+                    <div class="form_seach_title"> 
+                            <div class="form_seach_home-1">
+                                <div class="form_seach_title_text">Куда</div>
+                                <input class='city' type="text" placeholder="куда вы летите">
+                            </div>
+                    </div>
+                    <div class="form_seach_title"> 
+                        <div class="form_seach_home-1">
+                            <div class="form_seach_title_text">Дата вылета</div>
+                            <input class="data" id="date" type="date" placeholder="Туда"
+                            value="2021-07-22" min="2021-01-01" max="2021-12-31">
+                        </div>
+                    </div>
+                    <div class="form_seach_title"> 
+                        <div class="form_seach_home-1">
+                            <div class="form_seach_title_text">Дата вылета обратно</div>
+                            <input class="data" id="date" type="date" placeholder="Оттуда"
+                            value="2021-07-22" min="2021-01-01" max="2021-12-31">
+                        </div>
+                    </div>
+                    <div class="form_seach_title"> 
+                        <div class="form_seach_home-1">
+                            <div class="form_seach_title_text">Количество пассажиров</div>
+                            <input class='str' id="myInput" type="number" placeholder="1-8" min="1" max="8" maxlength="1" onchange="handleChange(this)">
+                        </div>
+                    </div>
+                    <div class="form_search_button">
+                        <button class="test-0-fbs">
+                            <a href="./search/search.html">Поиск билетов</a>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- flight-pool  -->
+<div class="flight-pool">
+    <div class="flight-pool-air">
+        <div class="flight-pool-text-title">
+            <div class="flight-pool-title">Новое будущее</div>
+            <div class="flight-pool-text">
+                Мы новая и энергичная авиакомпания, представляющая услуги пассажирских 
+                авиаперевозок небольшими малогабаритными самолетами.
+            </div>
+        </div>
+        <div class="flight-pool-photo">
+            <img src="../img/bombardir.png" alt="Nature" class="responsive" width="600" height="300">
+        </div>
+    </div>
+</div>
+
+
+<!-- counter -->
+<div class="trust_counter">
+    <section class="confidence">
+        <div class="container">
+            <div class="confidence_block">
+                <div class="confidence_block_title">Нам доверяют</div>
+                <div class="confidence_block_text">Мы ценим ваше доверие и понимаем, 
+                    что наша репутация зависит, в том числе, от надежности наших партнеров. 
+                    FlightPool работает только с проверенными 
+                    компаниями и рекомендует вам путешествовать по всему миру именно с ними.
+                </div>
+            </div>
+            <div class="confidence_num">
+                <div class="confidence_block_1">
+                    <div class="counter_photo_one"></div>
+                    <div id="out-1" class="out-num">0</div>
+                    <p class="hero">Клиентов нам доверяет</p>
+                </div>
+                <div class="confidence_block_1">
+                    <div class="counter_photo_two"></div>
+                    <div id="out-2" class="out-num">0</div>
+                    <p class="hero">Рейсов забронировано</p>
+                </div>
+                <div class="confidence_block_1">
+                    <div class="counter_photo_free"></div>
+                    <div id="out-3" class="out-num">0</div>
+                    <p class="hero">Миль пройдено</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<!-- main-photo -->
+<section class="main" id="sect-1">
+    <div class="container">
+        <div class="photo-block">
+            <div class="photo-1">
+                <div class="photo-item-1"></div>
+                <div class="photo-item">
+                    <h3>See you more often
+                    Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
+                    see your loved ones more often. Choose our company to fly to where you are always expected.
+                </div>
+            </div>
+            <div class="photo-1">
+                <div class="photo-item-2"></div>
+                <div class="photo-item">
+                    <h3>Best offers</h3>
+                    To see again the streets that witnessed so much. To hug your beloved ones and look back to see
+                    what you’ve come through. And to think of new dreams that will be so special!
+                </div>
+            </div>
+            <div class="photo-1">
+                <div class="photo-item-3"></div>
+                <div class="photo-item">
+                    <h3>See you more often</h3>
+                    Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
+                    see your loved ones more often. Choose our company to fly to where you are always expected.
+                </div>
+            </div>
+            <div class="photo-1">
+                <div class="photo-item-4"></div>
+                <div class="photo-item">
+                    <h3>Everything is on again</h3>
+                    From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice
+                    a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- subscription form -->
+<div class="subscription_form">
+    <section class="closed_shares">
+        <div class="container">
+            <div class="closed_shares_text">Подпишись на рассылку и узнавай<br>
+                о новых поступлениях и акциях - первым
+            </div>
+                <div class="closed_shares_block">
+                    <div class="closed_shares_email">
+                        <div class="test-0-sie">
+                            <div class="subscription_email">Ваш E-mail</div>
+                            <input type="text" placeholder="Введите е-mail">
+                        </div>
+                    </div>
+                    <div class="sybscription-button">
+                        <button class="test-0-sbs">Подписаться</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+</div>
+
+
+<!-- comment -->
+<div class="comment">
+    <div class="container">
+        <div class="slider-comment">
+            <div class="item-slider">
+                <div class="slideText">Здравствуйте. Салон самолёта Отличный! Летали на нём из Вильнюса в 
+                    Ларнаку и еда и туалеты везде всё было очень аккуратно, чисто и красиво!<br>
+                    <span>С уважением и благодарностью, Морозова Виктория</span></div>
+            </div>
+            <div class="item-slider">
+                <div class="slideText">Отличный авиалайнер,одним словом"СУПЕР"! 
+                    Комфорт и наёжнось,это про"Bombardier CRJ200"! 
+                    Летел с семьёй Магадан-Москва-Магадан,остались очень довольны!!!<br><span>С уважением, Татьяна Василенко</span></div>
+            </div>
+            <div class="item-slider">
+                <div class="slideText">Летел Туркменскими авиалиниями , Ашхабад - Анкара, мне понравились сиденья ,при моём росте 186, колени 
+                    не упирались впереди сидящего, и полёт в целом прошёл нормально!<br><span>С уважением, Дмитрий Осинин</span></div>
+            </div>
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">FlightPool</div>
+            <div class="footer-shares">
+                <h3>Акции</h3>
+                <div>Everything is on again</a></div>
+                <div>Returning and Changin</a></div>
+                <div>Best offers</a></div>
+                <div>See you more often</a></div>
+            </div>
+            <div class="footer-search">
+                <h3>Поиск</h3>
+                <div><a href="../search/search.html">Страница с результатами поиска</a></div>
+                <div><a href="../booking/booking.html">Страница бронирования</a></div>
+                <div><a href="../booking_managent/booking_management.html">Страница управления</a></div>
+                <div><a href="../seat/seat.html">Страница выбора мест</a></div>
+            </div>
+            <div class="footer-personal-area">
+                <h3>Личный кабинет</h3>
+                <div><a href="../register/register.html">Регистрация</a></div>
+                <div><a href="./login/login.html">Войти</a></div>
+            </div>
+            <div class="test-0-phone">
+                <a href="tel:+78001001010">+ 7 (800) 100 10 10</a>
+            </div>
+        </div>
+    </div>
+</footer>  
+
+
+<script src="./script.js"></script>
+<script src="./comments.js"></script>
+
+</body>
+</html>
